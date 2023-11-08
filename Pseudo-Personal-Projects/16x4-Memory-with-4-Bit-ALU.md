@@ -5,10 +5,10 @@ For instance:
 - The Multiplexer will have four control or select lines (hence 16-to-1 Memory data read multiplexer).
 - The memory (based on a D‐Flip‐Flop for a bit storage) will be 4‐bit addressable (hence 24 = 16 memory locations) and each memory location is holding 4-bit data (randomly initialize all locations with unique binary numbers/values).
 - The registers [assume that this computer has three GPRs data registers namely RA, RB and RC, and a SFR Status Register (SReg) called RS with:
-  (a.) The Sign (set if MSb of AC=1; this is irrelavant as I am using unsigned integers only for this computer).
-  (b.) Overflow (holding the second most significant bit's arithmetic's carryout).
-  (c.) Carry (holding the most significant bit's arithmetic's carryout)
-  (d.) Zero (set if AC=0) bit
+  - The Sign (set if MSb of AC=1; this is irrelavant as I am using unsigned integers only for this computer).
+  - Overflow (holding the second most significant bit's arithmetic's carryout).
+  - Carry (holding the most significant bit's arithmetic's carryout)
+  - Zero (set if AC=0) bit
   //All of these four status bits would be shown in this order as LSb to MSb of the RS/SReg)
 - The ALU (capable of performing the 4-bit unsigned sum arithmetic, and bit‐wise AND and OR logical operations on RA and RB as well
 as a bit-wise NOT on RA only, and the result of each of these four operations, demonstrated one at a time, will be stored in RC)
