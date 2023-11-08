@@ -7,9 +7,9 @@ For instance:
 - The registers [assume that this computer has three GPRs data registers namely RA, RB and RC, and a SFR Status Register (SReg) called RS with:
   - The Sign (set if MSb of AC=1; this is irrelavant as I am using unsigned integers only for this computer).
   - Overflow (holding the second most significant bit's arithmetic's carryout).
-  - Carry (holding the most significant bit's arithmetic's carryout)
-  - Zero (set if AC=0) bit
-  //All of these four status bits would be shown in this order as LSb to MSb of the RS/SReg)
+  - Carry (holding the most significant bit's arithmetic's carryout).
+  - Zero (set if AC=0) bit.
+// All of these four status bits would be shown in this order as LSb to MSb of the RS/SReg]
 - The ALU (capable of performing the 4-bit unsigned sum arithmetic, and bit‐wise AND and OR logical operations on RA and RB as well
 as a bit-wise NOT on RA only, and the result of each of these four operations, demonstrated one at a time, will be stored in RC)
 - The CPU will be of 4‐bit width and capability respectively.
