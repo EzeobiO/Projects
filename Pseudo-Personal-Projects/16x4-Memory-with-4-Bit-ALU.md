@@ -19,3 +19,9 @@ There will NOT be carrying out the Fetch (an instruction) and Decode (the instru
 
 ALU will do each of the above four mathematical operations, one at a time) the Execute operation in the FDE cycle of this computer. So, basically, it will be fetching the operands by reading a memory location using the addresses (from the instruction currently being executed) of the two operands (one at a time) and store it into registers RA and RB, and will store the result of the ALU operation after execution of the complete operation into another register RC and subsequently, will write/
 store it to a memory location that will be assumed too.
+
+## Video Demonstration
+https://github.com/EzeobiO/Projects/assets/143557674/f642e4fc-fb3a-44fb-bcac-b430978fc550
+
+
+
