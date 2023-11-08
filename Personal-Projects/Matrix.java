@@ -50,7 +50,7 @@ public class Matrix {
             }
         }
 
-        for(int i = 0; i < rows; i++){ /*Printing values of the array*/
+        for(int i = 0; i < rows; i++){ /*Printing values of the matrix*/
             for(int j = 0; j < columns; j++){
                 System.out.print(matrix[i][j] + "  ");
             }
@@ -59,7 +59,7 @@ public class Matrix {
         System.out.println();
         float[][] reducedMatrix = reducedEchelon(matrix, 0, 0, rows, columns);
 
-        for(int i = 0; i < rows; i++){ /*Printing values of the reduced array*/
+        for(int i = 0; i < rows; i++){ /*Printing values of the reduced matrix or reduced echelon form*/
             for(int j = 0; j < columns; j++){
                 System.out.print(reducedMatrix[i][j] + "  ");
             }
